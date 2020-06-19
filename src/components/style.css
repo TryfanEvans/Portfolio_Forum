@@ -1,0 +1,178 @@
+body {
+  background-image: linear-gradient(rgb(10, 134, 250), white, white, white);
+  height: 50%;
+}
+.post {
+  border: 1px solid #c1c1c1;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  word-break: break-word;
+}
+
+.post h3 {
+  margin: 0;
+}
+
+.post p {
+  margin: 0;
+}
+
+.posts {
+  flex: 1 0 320px;
+}
+
+.loading {
+  text-align: center;
+}
+.sidebar {
+  flex: 0 0 312px;
+  margin-left: 1rem;
+  display: inline;
+}
+
+.sidebar h1 {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.thread {
+  padding: 1rem;
+}
+
+.advertisement {
+  padding: 6px;
+  background-color: white;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+.advertisement p {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0.2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 1rem;
+  background-color: #d1d1d1;
+  max-width: 1300px;
+}
+
+.navigationbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100vw;
+  background-color: #121212;
+}
+
+.navigationbar img {
+  height: 2.5rem;
+  display: inline;
+  margin-top: 1.25rem;
+  margin-left: 3rem;
+}
+.navigationbar h1 {
+  display: inline;
+  top: 0;
+  position: absolute;
+  margin: 1rem;
+  color: rgb(240, 255, 255);
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .navigationbar img {
+    margin-left: 0.6rem;
+  }
+  .navigationbar h1 {
+    margin-left: 0.2rem;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    font-size: 14px;
+  }
+  .navigationbar {
+    height: 3.2rem;
+  }
+  .navigationbar img {
+    height: 1.5rem;
+  }
+  .navigationbar h1 {
+    font-size: 1.5em;
+  }
+  .content {
+    margin-top: 3.2rem;
+  }
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #c1c1c1;
+  padding: 0.5rem;
+  text-align: left;
+  border-radius: 0.3rem;
+  font-size: 1.1em;
+  background-color: white;
+  resize: vertical;
+}
+
+.btn {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid rgb(34, 34, 34);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  font-size: 1em;
+}
+
+.error {
+  color: red;
+  margin: 2px;
+}
+
+.title {
+  border: 1px solid #c1c1c1;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  word-break: break-word;
+}
+
+.title h2,
+p {
+  margin: 0;
+}
+.title img {
+  margin-top: 1rem;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5px;
+}
