@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Forum/static/css/main.1aa6c12d.chunk.css",
+    "main.js": "/Portfolio_Forum/static/js/main.ed516886.chunk.js",
+    "main.js.map": "/Portfolio_Forum/static/js/main.ed516886.chunk.js.map",
+    "runtime-main.js": "/Portfolio_Forum/static/js/runtime-main.bb77a8a2.js",
+    "runtime-main.js.map": "/Portfolio_Forum/static/js/runtime-main.bb77a8a2.js.map",
+    "static/css/2.d7f11d17.chunk.css": "/Portfolio_Forum/static/css/2.d7f11d17.chunk.css",
+    "static/js/2.cba24689.chunk.js": "/Portfolio_Forum/static/js/2.cba24689.chunk.js",
+    "static/js/2.cba24689.chunk.js.map": "/Portfolio_Forum/static/js/2.cba24689.chunk.js.map",
+    "index.html": "/Portfolio_Forum/index.html",
+    "precache-manifest.c680066d169f3d2b404bb2fc7e6e4997.js": "/Portfolio_Forum/precache-manifest.c680066d169f3d2b404bb2fc7e6e4997.js",
+    "service-worker.js": "/Portfolio_Forum/service-worker.js",
+    "static/css/2.d7f11d17.chunk.css.map": "/Portfolio_Forum/static/css/2.d7f11d17.chunk.css.map",
+    "static/css/main.1aa6c12d.chunk.css.map": "/Portfolio_Forum/static/css/main.1aa6c12d.chunk.css.map",
+    "static/js/2.cba24689.chunk.js.LICENSE.txt": "/Portfolio_Forum/static/js/2.cba24689.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/Portfolio_Forum/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb77a8a2.js",
+    "static/css/2.d7f11d17.chunk.css",
+    "static/js/2.cba24689.chunk.js",
+    "static/css/main.1aa6c12d.chunk.css",
+    "static/js/main.ed516886.chunk.js"
+  ]
+}
