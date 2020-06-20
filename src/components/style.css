@@ -92,6 +92,7 @@ body {
   top: 0;
   position: absolute;
   margin: 1rem;
+  margin-top: 0.9rem;
   color: rgb(240, 255, 255);
   text-align: center;
 }
